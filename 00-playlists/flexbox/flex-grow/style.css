@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.box{
+    height: 100%;
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.box1{
+    flex-grow: 1;
+    background-image: url('./assets/01.jpg');
+    background-size: cover;
+}
+
+.box2{
+    flex-grow: 1;
+    background-image: url('/assets/02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box3{
+    flex-grow: 1;
+    background-image: url("/assets/03.jpg");
+    background-size: cover;
+}
+
+.box:hover{
+    flex-grow: 2;
+    transition: 1s;
+}
