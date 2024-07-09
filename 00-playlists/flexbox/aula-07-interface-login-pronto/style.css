@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px 40px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.gerenciar input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+}
+
+.senha {
+    margin-top: 30px;
+}
+
+.botao {
+    margin-top: 60px;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 20px;
+    background: rgb(36, 183, 208);
+    background: linear-gradient(65deg, rgba(36, 183, 208, 1) 24%, rgba(70, 88, 130, 1) 100%);
+    cursor: pointer;
+}
+
+.botao:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(38,214,227,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(38,214,227,1);
+    box-shadow: 0px 0px 15px 0px rgba(38,214,227,1);
+    transition: 0.1s;
+}
+
+.criar-conta {
+    font-size: 13px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+span {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+span:hover{
+    color: blue;
+}
