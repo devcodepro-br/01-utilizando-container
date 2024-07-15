@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: chartreuse;
+}
+
+.item {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: rgb(168, 109, 224);
+    flex-shrink: 1;
+}
+
+.item2 {
+    background-color: rgb(199, 161, 116);
+    flex-shrink: 2;
+}
+
+.item3 {
+    background-color: rgb(103, 103, 229);
+    flex-shrink: 1;
+}
