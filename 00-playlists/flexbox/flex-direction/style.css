@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color:aqua;
+    align-items: center;
+}
+
+.box{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(176, 105, 241);
+    margin: 5px;
+    display: flex;
+    flex-grow: 1;
+}
